@@ -1,0 +1,33 @@
+/* src/Footer.css */
+.footer {
+    background-color: #121212; /* Dark background for footer */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Centered text */
+    padding: 20px; /* Padding around footer */
+    position:relative; /* Change to relative or fixed depending on needs */
+    bottom: 0; /* Position at bottom */
+    width: 100%; /* Full width */
+    z-index: 500; /* Ensure it stays above other content */
+}
+
+.social-icons {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center icons */
+}
+
+.social-icons li {
+    margin: 0 15px; /* Space between icons */
+}
+
+.social-icons a {
+    color: #ffffff; /* White color for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Size of the icons */
+    transition: color 0.3s; /* Transition effect for hover */
+}
+
+.social-icons a:hover {
+    color: #1484fc; /* Change color on hover */
+}

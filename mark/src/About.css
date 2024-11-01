@@ -1,0 +1,99 @@
+/* src/About.css */
+#about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #121212; /* Dark background */
+    color: #f0f0f0;
+    padding: 6rem; /* Padding around the section */
+}
+
+.about-content {
+    max-width: 800px; /* Limit content width */
+    text-align: center;
+}
+
+#about-me h2 {
+    font-size: 3rem; /* Increased font size */
+    margin-bottom: 1.5rem;
+    color: #1484fc;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#about-me p {
+    font-size: 1.2rem; /* Slightly larger text */
+    line-height: 1.8; /* Improved line height for readability */
+    margin: 1.5rem 0;
+    color: #d4d4d4;
+}
+
+.skills-container {
+    margin-top: 2rem;
+}
+
+.skills-container h3 {
+    font-size: 2.5rem; /* Increased font size for skills section */
+    margin-bottom: 1rem;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.skill-section {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+.skill-section h4 {
+    color: #1484fc;
+    font-size: 1.6rem; /* Increased font size */
+    margin-bottom: 0.5rem;
+}
+
+.skill-section ul {
+    list-style-type: disc;
+    margin-left: 1.2rem;
+}
+
+.skill-section li {
+    color: #e0e0e0;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-section {
+        width: 90%;
+    }
+
+    #about-me h2 {
+        font-size: 2.5rem; /* Adjust title size for smaller screens */
+    }
+
+    .skills-container h3 {
+        font-size: 2rem; /* Adjust skills title size */
+    }
+}
