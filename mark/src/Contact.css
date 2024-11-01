@@ -21,7 +21,7 @@
 #personal-info h2 {
     font-size: 2.5rem; /* Increased font size */
     margin-bottom: 30px;
-    color: #4ba8e3; /* Accent color for the title */
+    color: blue; /* Accent color for the title */
 }
 
 #personal-info ul {
@@ -39,7 +39,7 @@
 }
 
 #personal-info ul li strong {
-    color: #4ba8e3; /* Accent color for labels */
+    color: blue; /* Accent color for labels */
 }
 
 .profile-pic {

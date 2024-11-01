@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <section id="personal-info">
             <div className="contact-content">
-                <h2>Contact Me</h2>
+                <u><h2>Contact Me</h2></u>
                 <ul>
                     <li><strong>Name:</strong> Sayan Majhi</li>
                     <li><strong>Location:</strong> Madhya Joypur Bill, Howrah, Liluah, 711205</li>
