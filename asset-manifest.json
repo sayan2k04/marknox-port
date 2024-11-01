@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/marknox-port/static/js/main.cd251f32.chunk.js",
+    "main.js.map": "/marknox-port/static/js/main.cd251f32.chunk.js.map",
+    "runtime-main.js": "/marknox-port/static/js/runtime-main.6052fc9c.js",
+    "runtime-main.js.map": "/marknox-port/static/js/runtime-main.6052fc9c.js.map",
+    "index.html": "/marknox-port/index.html",
+    "static/js/main.cd251f32.chunk.js.LICENSE.txt": "/marknox-port/static/js/main.cd251f32.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6052fc9c.js",
+    "static/js/main.cd251f32.chunk.js"
+  ]
+}
