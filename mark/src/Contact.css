@@ -1,63 +1,30 @@
-/* src/Contact.css */
-#personal-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Full viewport height */
-    background-color: #1c1c1c; /* Dark background for the section */
-    color: white;
-    padding: 200px;
-}
-
 .contact-content {
-    text-align: center; /* Center align the text */
-    max-width: 600px; /* Limit content width */
-    background-color: #272727; /* Slightly lighter background for contrast */
-    border-radius: 10px;
-    padding: 70px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
 }
 
-#personal-info h2 {
-    font-size: 2.5rem; /* Increased font size */
-    margin-bottom: 30px;
-    color: blue; /* Accent color for the title */
+.contact-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
-#personal-info ul {
-    list-style-type: none; /* Remove bullet points */
+.contact-content ul {
+    list-style: none;
     padding: 0;
+    text-align: left;
 }
 
-#personal-info ul li {
+.contact-content li {
     font-size: 1.2rem;
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-between; /* Space between label and value */
-    border-bottom: 1px solid #4ba8e3; /* Divider line */
-    padding-bottom: 10px;
-}
-
-#personal-info ul li strong {
-    color: blue; /* Accent color for labels */
+    margin-bottom: 10px;
 }
 
 .profile-pic {
-    display: block;
-    margin: 30px auto;
+    max-width: 200px;
     border-radius: 50%;
-    width: 200px; /* Fixed size for image */
-    height: 200px;
-    border: 4px solid #4ba8e3; /* Border around the image */
-}
-
-/* Responsive design */
-@media (max-width: 600px) {
-    #personal-info h2 {
-        font-size: 2rem; /* Adjust title size for smaller screens */
-    }
-
-    #personal-info ul li {
-        font-size: 1rem; /* Adjust font size for list items */
-    }
+    margin-top: 20px;
+    border: 5px solid #ff6f61;
 }

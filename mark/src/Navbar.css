@@ -1,35 +1,29 @@
-/* src/Navbar.css */
 .navbar {
-    margin: 0;
-    padding: 0;
-    position:fixed; /* Makes the navbar fixed */
-    top: 0; /* Sticks it to the top */
-    background-color: #121212; /* Background color */
-    padding: 10px 0; /* Padding for the navbar */
-    width: 100%; /* Full width */
-    /*z-index: 1000; /* Ensures it is above other content */
-
+    background: #333;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar ul {
-    list-style: none; /* Remove bullet points */
-    display: flex; /* Flexbox for horizontal layout */
-    justify-content: center; /* Evenly space items */
-    margin: 0; /* Remove margin */
-    padding: 0; /* Remove padding */
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .navbar li {
-    margin: 0 20px; /* Space between links */
+    font-size: 1.1rem;
 }
 
 .navbar a {
-    text-decoration: none; /* Remove underline */
-    color: #ffffff; /* White text color */
-    font-weight: bold; /* Bold text */
-    transition: color 0.3s; /* Smooth color transition */
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .navbar a:hover {
-    color: #1484fc; /* Change color on hover */
+    color: #ff6f61;
 }

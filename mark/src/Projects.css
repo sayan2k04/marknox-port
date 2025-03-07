@@ -1,73 +1,56 @@
-/* src/Projects.css */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #121212; /* Dark background for the whole page */
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
     color: white;
 }
 
-#projects {
-    margin: 50px 0;
-}
-
-.projects-container {
-    display: flex;
-    align-items: stretch; /* Make sure the image and project details are the same height */
-}
-
-.project-details {
-    flex: 1; /* Take remaining space */
-    padding: 20px;
-    max-width: 600px; /* Limit width for the project details */
+.projects-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
 .project-list {
     display: flex;
-    flex-direction: column;
-    gap: 20px; /* Space between project cards */
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .project-card {
-    background-color: #1a1a1a; /* Dark background for each project card */
-    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
     padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s; /* Smooth scaling on hover */
-}
-
-.project-card:hover {
-    transform: scale(1.05); /* Scale up on hover */
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
 }
 
 .project-card h3 {
-    color: #1484fc;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
 .project-card p {
-    font-size: 1rem;
-    color: #d4d4d4;
+    font-size: 1.1rem;
     margin-bottom: 15px;
 }
 
 .project-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: white;
     text-decoration: none;
-    color: #4ba8e3;
-    font-weight: bold;
-    transition: color 0.3s;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
 .project-card a:hover {
-    color: #1484fc; /* Change color on hover */
-}
-
-.project-image {
-    flex: 1; /* Take remaining space */
-    overflow: hidden; /* Ensure no overflow from image */
+    background: #ff3b2f;
 }
 
 .project-image img {
-    width: 100%; /* Full width for image */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Cover the area, cropping if necessary */
+    max-width: 100%;
+    border-radius: 10px;
 }
